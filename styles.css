@@ -6,12 +6,12 @@
     font-family: sans-serif;
 }
 
-/**************************** global - navi bar ****************************/
+/**************************** global - navi bar & bg ****************************/
 
 .navbar {
     width: 85%;
     margin: auto;
-    padding: 50px 0;
+    padding: 25px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,4 +22,21 @@
     cursor: pointer;
 }
 
+.background {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.85)), url(assets/IMG_9578.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 /**************************** main ****************************/
+
+.spacer {
+    height: 82vh;
+}
+
+.spacer h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* color: rgb(52, 97, 235); */
+    padding-top: 25px;
+}
