@@ -1,9 +1,19 @@
 /**************************** global ****************************/
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.background {
+    overflow: hidden;
+    background-image: linear-gradient(#00ac92, #00ac9247), url(assets/IMG_9700.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 /**************************** global - navi bar & bg ****************************/
@@ -22,21 +32,25 @@
     cursor: pointer;
 }
 
-.background {
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.85)), url(assets/IMG_9578.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
 /**************************** main ****************************/
 
 .spacer {
-    height: 82vh;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .spacer h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* color: rgb(52, 97, 235); */
-    padding-top: 25px;
+    color: white;
+    padding-top: 115px;
+    font-weight: 800;
+    font-size: 450%;
+    text-align: center;
+}
+
+.spacer h2 {
+    color: white;
+    padding-top: 40px;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
 }
